@@ -12,10 +12,11 @@ def get_input():
         return os.path.abspath(d)
     elif q.lower() == 'n':
 
-        """get first file, input second file, then ask if there are more long code, so fuck it for now"""
+    # edit
 
     else:
-        print("pick 'y' or 'n' you dumb fuck!")
+        # edit
+        print("pick 'y' or 'n'!")
 
 
 def file_list(directory):
@@ -41,6 +42,7 @@ def exp_xlsx(excel_path, df):
     writer.save()
 
 
+# edit
 def another_file():
     inp = ''
     while inp == '':
@@ -51,5 +53,5 @@ def another_file():
             print("Thanks for using 'The Concatenator'! Goodbye!")
             sys.exit()
         else:
-            print("Please choose either 'y' or 'n', you fucking ass-hat")
+            print("Please choose either 'y' or 'n'")
             continue
